@@ -26,7 +26,6 @@ import { selectOnChainSigning, selectTokenList, TOKEN_LISTS } from '@/store/sett
 import { useAppSelector } from '@/store'
 import useSafeInfo from '@/hooks/useSafeInfo'
 import { selectSafeMessages } from '@/store/safeMessagesSlice'
-import { type SafeAppsTxParams } from '@/components/tx-flow/flows/SafeAppsTx'
 import { trackSafeAppEvent, SAFE_APPS_EVENTS } from '@/services/analytics'
 import { safeMsgSubscribe, SafeMsgEvent } from '@/services/safe-messages/safeMsgEvents'
 import { txSubscribe, TxEvent } from '@/services/tx/txEvents'
@@ -135,9 +134,9 @@ export const useCustomAppCommunicator = (
 
       return safe.deployed
         ? getBalances(chainId, safeAddress, currency, {
-          exclude_spam: true,
-          trusted: isDefaultTokenlistSupported && TOKEN_LISTS.TRUSTED === tokenlist,
-        })
+            exclude_spam: true,
+            trusted: isDefaultTokenlistSupported && TOKEN_LISTS.TRUSTED === tokenlist,
+          })
         : Promise.resolve(balances)
     },
     onGetChainInfo: () => {
