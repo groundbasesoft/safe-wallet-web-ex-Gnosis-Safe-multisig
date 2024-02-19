@@ -1,5 +1,6 @@
 "use client"
 
+import "@stakekit/widget/package/css";
 import { SKApp, darkTheme } from "@stakekit/widget"
 
 export const Widget = () => {
