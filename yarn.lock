@@ -5745,10 +5745,10 @@
     react-remove-scroll "2.5.4"
     ua-parser-js "^1.0.35"
 
-"@stakekit/widget@^0.0.100":
-  version "0.0.100"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.100.tgz#e9bc8035161f07af43ba140737554bbf46d91c47"
-  integrity sha512-knhB5Ax6xVOcw8liF8DsiG5pkO5fb8LBQirBMqJvmH2hbWZmpHP0gdqbliKzoqNhUQsdDWqwuaWh+ylpIQWWjg==
+"@stakekit/widget@^0.0.102":
+  version "0.0.102"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.102.tgz#199a94fc8c7d19ad5b8105e21ce44cc5f5d387a7"
+  integrity sha512-3JPWptNm6djR5iBEPFpz2V0tOMlA2Oj5v/v7qo3OZOS3fZtoD6+EoGTVhbDbSW/hHCuEPu3Bbk/AxdSQlrT3nw==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/amino" "^0.32.2"
