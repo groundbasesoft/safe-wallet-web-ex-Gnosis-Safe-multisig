@@ -5731,10 +5731,10 @@
   resolved "https://registry.yarnpkg.com/@stakekit/common/-/common-0.0.24.tgz#579afa2a7082989614888c0ad004b807ff2cc78d"
   integrity sha512-BNT1+PD7afWp10eeUFcx19/vGeKNdwHJTXlXDCnmepMHALc+byaWcvPVQ0bn25ax0y5GlfgPLhsuCTecN9qPfg==
 
-"@stakekit/rainbowkit@^1.3.9":
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/@stakekit/rainbowkit/-/rainbowkit-1.3.9.tgz#d9c487bcf4d427d7b47d2c0d33170956c1fca5e4"
-  integrity sha512-dP5iLKm6GTOFN3oAevG4sKy1y2BWAGlUWEv1wj+ScO4nAQUMkYfByxiRiatRQrEgDT8Azdx5L68jOFCet4GxMA==
+"@stakekit/rainbowkit@^1.3.10":
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/@stakekit/rainbowkit/-/rainbowkit-1.3.10.tgz#93fd8618eed9ff5e7c09bd79910b64f750367813"
+  integrity sha512-byLzOwzzE2JHnx8jY1OsH3plUjVEKINqd4aPo9w1EAVN+FDaV61BZPO8tHFSsqiQxK/gWNThFgNSOzVEMMn9fQ==
   dependencies:
     "@vanilla-extract/css" "1.9.1"
     "@vanilla-extract/dynamic" "2.0.2"
@@ -5745,10 +5745,10 @@
     react-remove-scroll "2.5.4"
     ua-parser-js "^1.0.35"
 
-"@stakekit/widget@^0.0.102":
-  version "0.0.102"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.102.tgz#199a94fc8c7d19ad5b8105e21ce44cc5f5d387a7"
-  integrity sha512-3JPWptNm6djR5iBEPFpz2V0tOMlA2Oj5v/v7qo3OZOS3fZtoD6+EoGTVhbDbSW/hHCuEPu3Bbk/AxdSQlrT3nw==
+"@stakekit/widget@^0.0.107":
+  version "0.0.107"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.107.tgz#6afb482bb11dd8a772544c44819e3668322b7e5b"
+  integrity sha512-uaFSL5Kx4l4gb3f3z7sTedPz75yndqgQ6nwMtfzQpcu59J1Cn6e9Xr+OzRbXyH13Dw+LQXG1N5EIu714aXdXMQ==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/amino" "^0.32.2"
@@ -5764,7 +5764,7 @@
     "@radix-ui/react-dropdown-menu" "^2.0.6"
     "@stakekit/api-hooks" "^0.0.56"
     "@stakekit/common" "^0.0.24"
-    "@stakekit/rainbowkit" "^1.3.9"
+    "@stakekit/rainbowkit" "^1.3.10"
     "@tanstack/react-query" "^5.17.19"
     "@tanstack/react-query-devtools" "^5.20.5"
     "@tronweb3/tronwallet-abstract-adapter" "^1.1.6"
